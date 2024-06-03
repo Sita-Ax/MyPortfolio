@@ -4,11 +4,13 @@ import React, { useState } from 'react'
 import NavLink from './NavLink'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay'
+import Search from './Search'
 
 const navLinks = [
   { title: 'About', path: '#about' },
   { title: 'Projects', path: '#projects' },
-  { title: 'Contact', path: '#contact' }
+  { title: 'Contact', path: '#contact' },
+  { title: 'Blog', path: '#blog' }
 ]
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -22,6 +24,7 @@ const Navbar = () => {
         >
           LOGO
         </Link>
+        <Search />
         <div className='block md:hidden'>
           {!navbarOpen ? (
             <button

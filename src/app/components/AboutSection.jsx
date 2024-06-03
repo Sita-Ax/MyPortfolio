@@ -24,7 +24,8 @@ const TAB_DATA = [
     content: (
       <ul className='pl-2 list-disc'>
         <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>EC-utbildningar distance (Växjö), Sweden</li>
+        <li>Lexicon C# .NET distance (Växjö), Sweden</li>
       </ul>
     )
   },
@@ -35,6 +36,18 @@ const TAB_DATA = [
       <ul className='pl-2 list-disc'>
         <li>AWS Cloud Practitioner</li>
         <li>Google Professional Cloud Developer</li>
+        <li>Java-developer</li>
+        <li>C# graduated</li>
+      </ul>
+    )
+  },
+  {
+    title: 'Private',
+    id: 'privates',
+    content: (
+      <ul className='pl-2 list-disc'>
+        <li>My family blogg</li>
+        <li>My prescription blogg</li>
       </ul>
     )
   }
@@ -89,6 +102,13 @@ const AboutSection = () => {
             >
               {' '}
               Certifications{' '}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange('privates')}
+              active={tab === 'privates'}
+            >
+              {' '}
+              Private{' '}
             </TabButton>
           </div>
           <div className='mt-8'>{TAB_DATA.find(t => t.id === tab).content}</div>
