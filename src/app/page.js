@@ -1,5 +1,6 @@
 import AboutSection from './components/AboutSection'
 import AchievementsSection from './components/AchievementsSection'
+import BlogSection from './components/BlogSection'
 import EmailSection from './components/EmailSection'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
@@ -15,6 +16,7 @@ export default function Home () {
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
+        <BlogSection />
         <EmailSection />
       </div>
       <Footer />
