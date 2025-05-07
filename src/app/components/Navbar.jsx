@@ -7,10 +7,10 @@ import MenuOverlay from './MenuOverlay'
 import Search from './Search'
 
 const navLinks = [
-  { title: 'About', path: '#about' },
-  { title: 'Projects', path: '#projects' },
-  { title: 'Contact', path: '#contact' },
-  { title: 'Blog', path: '#blog' }
+  { title: 'About', path: '/#about' },
+  { title: 'Projects', path: '/projects' },
+  { title: 'Contact', path: '/contact' },
+  { title: 'Blog', path: '/blog' }
 ]
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -44,6 +44,12 @@ const Navbar = () => {
         </div>
         <div className='hidden menu md:flex md:w-auto' id='navbar'>
           <ul className='flex p-4 mt-0 md:p-0 md:flex-row md:space-x-8'>
+            {/* <li className='text-white hover:text-gray-400'>
+              <Link href='#about'>About</Link>
+            </li>
+            <li className='text-white hover:text-gray-400'>
+              <Link href='#blog'>Blog</Link>
+            </li> */}
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />
@@ -52,7 +58,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <MenuOverlay links={navLinks} setNavbarOpen={setNavbarOpen} />
+      ) : null}
     </nav>
   )
 }

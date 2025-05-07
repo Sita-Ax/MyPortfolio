@@ -13,11 +13,21 @@ export default function Home () {
       <Navbar />
       <div className='container px-12 py-4 mx-auto mt-24'>
         <HeroSection />
-        <AchievementsSection />
-        <AboutSection />
-        <ProjectsSection />
-        <BlogSection />
-        <EmailSection />
+        <section id='about'>
+          <AboutSection />
+        </section>
+        {/* <section id='projects'>
+          <ProjectsSection />
+        </section>
+        <section id='contact'>
+          <EmailSection />
+        </section>
+        <section id='blog'>
+          <BlogSection />
+        </section>
+        <section id='achievements'>
+          <AchievementsSection />
+        </section> */}
       </div>
       <Footer />
     </main>

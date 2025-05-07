@@ -1,0 +1,73 @@
+standarddomän när man distribuerar ett projekt på Vercel.
+automatiskt en URL i formatet your-project-name.vercel.app.
+Du kan använda denna URL för att komma åt din webbplats utan att behöva konfigurera en egen domän.
+
+Att lägga till en egen domän är valfritt och endast nödvändigt om du vill att din webbplats ska vara 
+tillgänglig via en personlig URL, som www.dittdomannamn.com. 
+Add Domain, följ instruktionerna för att uppdatera DNS-inställningar hos
+domainregistrator. Efter att ha uppdaterat DNS-inställningarna, verifiera domänen på Vercel.
+
+https://my-portfolio-m4jsxixm0-rosita-axelssons-projects.vercel.app
+https://my-portfolio-rosita.vercel.app/
+
+Domains:
+Hantera och konfigurera dina domäner för din Vercel-webbplats. Detta inkluderar att lägga till anpassade domäner, konfigurera omdirigeringar och välja vilken git-branch din webbplats ska deployas från.
+
+Environment Variables:
+Definiera och hantera miljövariabler för din applikation. Miljövariabler används ofta för att konfigurera applikationen beroende på vilket miljö den körs i (till exempel utveckling, testning, produktion).
+
+Git:
+Anslut din Vercel-webbplats till ditt Git-repository för automatisk distribution baserat på commits.
+
+Integrations:
+Integrera andra tjänster eller verktyg med din Vercel-applikation, som GitHub, GitLab, Bitbucket, Slack etc.
+
+Deployment Protection:
+Säkra din distribution genom att ställa in skyddsåtgärder för att förhindra oavsiktliga eller oönskade distributioner.
+
+Functions:
+Skapa och hantera serverlösa funktioner (serverless functions) för att lägga till backend-funktionalitet till din Vercel-applikation.
+
+Data Cache:
+Konfigurera och hantera cachning för din applikation för att förbättra prestanda och skalbarhet.
+
+Cron Jobs:
+Skapa och hantera planerade uppgifter (cron jobs) för att köra automatiska uppgifter vid schemalagda tidpunkter.
+
+Log Drains:
+Ställ in och hantera externa loggdräner för att dirigera loggar från din Vercel-applikation till andra tjänster eller verktyg för analys och övervakning.
+
+Security:
+Konfigurera och hantera säkerhetsinställningar för din Vercel-applikation, inklusive SSL-certifikat, HTTP-headers och mer.
+
+Advanced:
+Avancerade inställningar och konfigurationsalternativ för din Vercel-applikation, såsom webhook-hantering, anpassade skript och mer.
+
+Integrations:
+Samma som punkt 4, en sektion för att integrera externa tjänster eller verktyg med din Vercel-applikation.
+
+Vercel = molnplattform för att distribuera och vara värd för webbap, och statiska webbplateser.
+Serverlös miljö där man pusha koden direkt utan att hantera servrar eller infrastruktur. Värd för frontend.
+
+Resend e-postmarknadsföringsplattform som hjälper att skapa och skicka nyhetsbrev, automatiserade e-post och andra marknadsföringskampanjer.
+Hantera din e-postlista, segmentera målgrupp och spåra resultatet av e-postkampanjer. Den är integrerad med webbplatsen för att samla in e-postadresser 
+från besökare eller utlösa e-postmeddelanden baserat på användaråtgärder.
+
+Blogger är en bloggplattform som ägs av Google. Här skapas och publicera blogginlägg gratis. Det är ett innehållshanteringssystem (CMS) 
+speciellt utformat för att skriva och dela blogginnehåll. Blogger är inte heller direkt relaterad till webbplatsen värd, men används för att skapa en 
+separat blogg kopplad till webbplatsen eller bädda in blogginlägg på webbplatsens sidor.
+
+Vercel är webbplatsen där innehållet finns. Sidorna som besökarna använder och integrerar med.
+
+Blogga (Blogger): Skapa en blogg på Blogger för att dela mer djupgående innehåll, 
+locka till sig organisk trafik och etableras som expert inom ett område. 
+Bädda in blogginlägg på webbplatsen eller länka till dem från webbplatsens navigering.
+
+Utöka räckvidd: Locka besökare från olika kanaler (webbplats, e-post, blogg) och driv trafik mellan dem.
+
+Engagera publiken: Håll publiken informerad och engagerad med regelbundna e-postuppdateringar och blogginlägg.
+
+Bygg varumärkesmedvetenhet: Etablera varumärkes närvaro och expertis genom konsekvent innehåll och kommunikation.
+
+Kom ihåg att varje plattform har sina egna styrkor och begränsningar. 
+Utvärdera dina specifika behov och mål för att avgöra hur du bäst använder dem i samband med din webbplats.

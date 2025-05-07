@@ -1,15 +1,19 @@
+import Link from 'next/link'
 import React from 'react'
-import NavLink from './NavLink'
 
-const MenuOverlay = ({ links }) => {
+const MenuOverlay = ({ links, setNavbarOpen }) => {
   return (
-    <ul className='flex flex-col items-center py-4'>
-      {links.map(link => (
-        <li key={link.id}>
-          <NavLink href={link.path} title={link.title} />
-        </li>
-      ))}
-    </ul>
+    <div className='fixed inset-0 z-20 bg-black bg-opacity-75 flex items-center justify-center'>
+      <ul className='flex flex-col space-y-4'>
+        {links.map((link, index) => (
+          <li key={index} className='text-white text-xl'>
+            <Link href={link.path} onClick={() => setNavbarOpen(false)}>
+              {link.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

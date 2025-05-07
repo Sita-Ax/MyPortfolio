@@ -1,0 +1,85 @@
+Next.js is an open-source framework for building server-side rendered React applications.
+
+It has benefits that make development faster, more efficient, and scalable. It renders SSR (Server-Side Rendering), 
+which improves website performance and user experience by pre-rendering pages and sending fully formatted HTML to the browser.
+
+Automatic code splitting into smaller chunks makes it easier to load and reduces the time it takes to load the site.
+
+Next.js supports static site generation (SSG), allowing you to pre-render pages at build time. This results in faster load 
+times and better performance.
+
+With Incremental Static Regeneration (ISR), you can update static content after the site is built without rebuilding the entire site. 
+This enables you to keep your content up-to-date without sacrificing performance.
+
+Next.js allows you to create API endpoints directly within your application. This means you can build full-stack applications with 
+both frontend and backend logic in the same project.
+
+Next.js provides an Image component that optimizes images on-demand. This ensures images are served in the best possible format and size, 
+improving load times and user experience.
+
+Built-in support for internationalization makes it easier to create multilingual websites. You can manage translations and locale-based 
+content seamlessly.
+
+Next.js automatically generates routes based on the file structure in the pages directory, simplifying the process of setting up and 
+managing routes.
+
+While Next.js works with zero configuration out of the box, it also allows extensive customization through next.config.js for advanced 
+use cases.
+
+Next.js is designed to work well with serverless deployment platforms like Vercel (the creators of Next.js), making it easy to deploy 
+and scale your application.
+
+SEO optimization is another advantage because it supports SSR. It can help with search engine optimization by allowing search engines 
+to more easily crawl and index your page.
+
+--------------------------------------
+
+Next.js är ett öppen källkods-ramverk för att bygga server-side rendered React-applikationer.
+
+Några fördelar med att använda det är att utvecklingen blir snabbare, är mer effektiv och skalbar. Det renderar SSR (Server-Side Rendering), 
+vilket förbättrar webbplatsens prestanda och användarupplevelse genom att för-rendera sidor och skicka fullständigt formaterad HTML 
+till webbläsaren.
+
+Automatisk koddelning i mindre delar gör det lättare att ladda och minskar tiden det tar att ladda sidan.
+
+Next.js stöder statisk sidgenerering (SSG), vilket gör att man kan för-rendera sidor vid byggtid. Detta resulterar i snabbare 
+laddningstider och bättre prestanda.
+
+Med Incremental Static Regeneration (ISR) kan man uppdatera statiskt innehåll efter att sidan har byggts utan att behöva bygga 
+om hela sidan. Detta gör att man kan hålla ditt innehåll uppdaterat utan att kompromissa med prestandan.
+
+Next.js tillåter att skapa API-endpoints direkt i applikationen. Detta innebär att man kan bygga fullstack-applikationer 
+med både frontend- och backend-logik i samma projekt.
+
+Next.js tillhandahåller en Image-komponent som optimerar bilder on-demand. Detta säkerställer att bilder serveras i bästa möjliga 
+format och storlek, vilket förbättrar laddningstider och användarupplevelse.
+
+Inbyggt stöd för internationalisering gör det enklare att skapa flerspråkiga webbplatser. Man kan hantera översättningar och innehåll 
+baserat på lokalisering sömlöst.
+
+Next.js genererar automatiskt rutter baserat på filstrukturen i katalogen pages, vilket förenklar processen att sätta upp och hantera rutter.
+
+Medan Next.js fungerar utan konfiguration direkt ur lådan, tillåter det också omfattande anpassning genom next.config.js för avancerade 
+användningsfall.
+
+Next.js är designat för att fungera bra med serverlösa distributionsplattformar som Vercel (skaparna av Next.js), vilket gör det enkelt 
+att distribuera och skala din applikation.
+
+SEO-optimering är en annan fördel eftersom det stöder SSR. Det kan hjälpa med sökmotoroptimering genom att göra det lättare för 
+sökmotorer att genomsöka och indexera din sida.
+
+app.js: Innehåller App Router-filer för routing och metadata.
+pages.jxs: Innehåller Pages Router-filer för routing.
+public: Innehåller statiska resurser som ska serveras (t.ex. bilder, ikoner).
+src: Valfri mapp för applikationens källkod.
+
+layout: Layoutkomponent.
+page: Sidskomponent.
+loading: Laddnings-UI.
+not-found: UI för ej funna sidor.
+error: Fel-UI.
+global-error: Globalt fel-UI.
+route: API-endpoint.
+template: Åter-renderad layout.
+default: Parallel rutt fallback-sida.
+

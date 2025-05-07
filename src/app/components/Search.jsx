@@ -14,15 +14,15 @@ const Search = () => {
 
   return (
     <form
-      className='w-full flex justify-center md:justify-between'
+      className='flex justify-center w-32 h-6 md:justify-between'
       onSubmit={handleSubmit}
     >
-      <div className='bg-slate-200 flex rounded-xl items-center justify-center'>
+      <div className='flex items-center justify-center bg-slate-200 rounded-xl'>
         <input
           type='text'
           value={search}
           onChange={e => setSearch(e.target.value)}
-          className='bg-slate-200 border border-white p-2 w-full text-xl rounded-xl'
+          className='w-full h-4 p-2 text-xl border border-white bg-slate-200 rounded-xl'
           placeholder='Search'
         />
         <button type='submit'>

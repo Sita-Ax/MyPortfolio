@@ -9,10 +9,10 @@ const TAB_DATA = [
     id: 'skills',
     content: (
       <div>
-        <h1 className='mb-4 text-xl font-semibold'>Mina skills som junior</h1>
+        <h1 className='mb-4 text-xl font-semibold'>My skills as a junior</h1>
         <ul className='list-disc'>
           <li className='mb-2'>
-            <h2 className='mb-2'> Programmerings Språk:</h2>
+            <h2 className='mb-2'> Programming Languages:</h2>
             <ul className='pl-4 list-none list-disc'>
               <h2>
                 Java <span className='text-xs text-yellow-400 '>60%</span>
@@ -46,7 +46,7 @@ const TAB_DATA = [
             </ul>
           </li>
           <li className='mb-2'>
-            <h2 className='mb-2'>Databaser:</h2>
+            <h2 className='mb-2'>Databases:</h2>
             <ul className='pl-4 list-disc'>
               <h2>
                 SQL <span className='text-xs text-yellow-400 '>80%</span>
@@ -108,7 +108,7 @@ const TAB_DATA = [
             </ul>
           </li>
           <li className='mb-2'>
-            <h2 className='mb-2'>Verktyg:</h2>
+            <h2 className='mb-2'>Tools:</h2>
             <ul className='pl-4 list-disc'>
               <h2>
                 Git <span className='text-xs text-yellow-400 '>80%</span>
